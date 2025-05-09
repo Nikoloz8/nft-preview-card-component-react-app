@@ -5,6 +5,10 @@ h1{
     color: #ffffff;
 }
 
+h1:hover{
+    color: #00FFF8;
+}
+
 .content-container{
     display: flex;
     flex-direction: column;
@@ -76,5 +80,9 @@ h2{
 h2 span{
     color: #ffffff;
     font-weight: 400;
+}
+
+h2 span:hover{
+    color: #00FFF8;
 }
 

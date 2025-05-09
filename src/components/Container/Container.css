@@ -4,9 +4,33 @@
     padding: 24px;
     border-radius: 15px;
     box-shadow: 0 25px 50px 0 #00000018;
+    
 }
 
 .equilibrium{
     width: 100%;
     border-radius: 8px;
+}
+
+.equilibrium-container{
+    background-image: url(../../../public/images/icon-view.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #00FFF8;
+    border-radius: 8px;
+    height: 302px;
+}
+
+.equilibrium:hover{
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 400px) {
+    .container{
+        width: 327px;
+    }
+
+    .equilibrium-container{
+        height: 279px;
+    }   
 }
