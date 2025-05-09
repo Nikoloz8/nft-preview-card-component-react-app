@@ -1,0 +1,12 @@
+.container{
+    width: 350px;
+    background-color: #15263F;
+    padding: 24px;
+    border-radius: 15px;
+    box-shadow: 0 25px 50px 0 #00000018;
+}
+
+.equilibrium{
+    width: 100%;
+    border-radius: 8px;
+}

@@ -1,0 +1,80 @@
+h1{
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 100%;
+    color: #ffffff;
+}
+
+.content-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.description{
+    font-weight: 300;
+    font-size: 1.1rem;
+    line-height: 26px;
+    color: #8BACD9;
+}
+
+.time-count, .etherium-count{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.time-count img, .etherium-count img{
+    height: auto;
+}
+
+.stats{
+    display: flex;
+    justify-content: space-between;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: #2E405A;
+}
+
+.etherium-count h3, .time-count h3{
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 100%;
+    color: #00FFF8;
+}
+
+.time-count h3{
+    font-weight: 400;
+    color: #8BACD9;
+}
+
+.creator{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+.creator img{
+    width: 32px;
+    height: 32px;
+    border: 1px solid #ffffff;
+    border-radius: 100%;
+}
+
+h2{
+    color: #8BACD9;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 100%;
+}
+
+h2 span{
+    color: #ffffff;
+    font-weight: 400;
+}
+
